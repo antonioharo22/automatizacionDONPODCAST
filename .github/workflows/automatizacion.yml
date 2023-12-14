@@ -21,7 +21,7 @@ jobs:
     - name: Instalar dependencias
       run: |
         python3 -m pip install --upgrade pip
-        pip3 install gspread google-auth-oauthlib google-auth-httplib2 torch pytube
+        pip3 install gspread google-auth-oauthlib google-auth-httplib2 torch whisper pytube argparse moviepy
 
     - name: Ejecutar script Python
       run: |
