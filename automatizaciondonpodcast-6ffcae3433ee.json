@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "automatizaciondonpodcast",
+  "private_key_id": "6ffcae3433eeb3d521b4fe33fc41e39ef713c9da",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCwSRAQquxiYlNi\nu0aMmxF71i1i65CUBSFF4DgZlDUgjOAR0gJiRDj7hjatlhAjD2m+Ol5erOFtCn3F\n6Na3vitCBZ2kXYfOJoSQJ0BI3dRTRGAIyuhJbgjMKQ70rXvJTVgMv8zxEeRMBRJx\n0ebR+x1O8SSELtW9bfzD5RtZusaoP3loeIcJYwMqC5kGvsNvYENKlZ9VKAqy+shV\nMRjD9CSosjoznjKNSJgXUXM/7wjwCbmMsBAaxuciTiwrNq2lN+UvZOUR0znqGpVW\nhaifrNOYtjLY8tDZR8UTA/4Vg7PzfTarc5QFsLfmy/ChsR0hy3TTFW7GRurTJ5M6\nU3wqa8E5AgMBAAECggEAAPXcReujzHXqwcwRenOKUk1vM3L4giFEhlijlEUYedV2\npODgZTK9XjvDvr6awXwkeEuMXHxD4U09ieyxWxsovxbK05yfAFPOpKk9amA2AiBK\nXHs8LdE7sEliz4Owm9RFar1dQ2zJ51L0P/qTz7ihjF7CiItSRrJ2PkbNtzeN/Jg9\n8PtQ0hRIcMrJnam9AmPmIL6lx3ErS3NGpr8MViS7CXgkuuJfpaGFSonBMyl49vgj\nik6HfwlMXbErWzQbQZ1+kx9FTNDX89O29Qd9Eme2eW6jjykvJXQSIx2K4ULJPRff\nXbvi+9vBB2T+0LVScCNqSq+2T2SjcVP0I6zhPxpnsQKBgQDo2MSKQIumNyeUrQse\ncJ5mI0dft/0M+vjla3j4l6ZDEIQgFlmfvzIFIajO229sMloLnOh4279sU8wRkCTo\nU/lpUpNpvLYe4DiTkKcvf4ilAFf9gBWzmI0SbwYX5a1z0eSI6DGWrC1SFNnqId/6\nh7F8bqHyMqQ9g9JKXyt1dIhy0QKBgQDB0H9HsnNEZbdrbNY0uMu1rNRH+XWg7j1i\nbxaPtXj7LHDCh8m7/+OptlIK9DGbaI64Zu566Ey177vgrerfTJVBIlQ9we95JHis\nL13/T618Iv8902qP2EeNyl88Vp2Emhe8p2HcEoJA7/PYw4j4r4maoZKmHgYoztMs\nBhK4t/1x6QKBgQCRLcatZL0tr6nwG0yZeCJrEIgJ+E/A7iKN+Mp+RR+XJQ8capMK\n9U0cwfXctBju3x4hq32PDYR26HCOas94RBN4RdI/1TfAXJEqAMEc7mmmZ2Z1Wo0t\nY2piGfM0pzHUywOxEQUKKuQ/D10njGN4c26IZPp4ZnbdG/ncASa5nyUMYQKBgQCO\nUkm034CvYDYhh4mAq5bDcQdtVu0e4PNongSmQO93GjovT0E/cXe/fyed7ZWj9lKf\nbM6AqKb0Dvga0/ueQAF2E/xiYVA12CdY4WuX+O1/M7/UqbQdrwdUQqBOkZgX8IOv\nwAYncdv+TXX13hht7ZERYMZsf62sN7xwHoGO7WUKSQKBgAqS3D9AyrEnvwgqybyx\nOu3A6pV6o8kLJGAgVxWpkd5zimgT4NMOm3RZ2U1ohR5kO6Kes9fdeLHnr53KbCVu\nP4SAoUA9D1ikQKbAvBo2NnM4kgCetXdMxUnmWOkPf319WXeJ22M5iz6YH01WBqpM\n1nfE7IeF2sVX8MVScphCT9k8\n-----END PRIVATE KEY-----\n",
+  "client_email": "automatizaciondonpodcast@automatizaciondonpodcast.iam.gserviceaccount.com",
+  "client_id": "109937863327750722915",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/automatizaciondonpodcast%40automatizaciondonpodcast.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
