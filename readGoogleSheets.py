@@ -24,7 +24,7 @@ def read_google_sheets(gc, spreadsheet_id, sheet_name):
     return channels
 def main():
     # Ruta al archivo JSON de credenciales
-    credentials_path = "automatizacionDONPODCAST/automatizaciondonpodcast-6ffcae3433ee.json"
+    credentials_path = "automatizaciondonpodcast-6ffcae3433ee.json"
 
     # ID de la hoja de cálculo
     spreadsheet_id = '1QBl3XzKWWAZRlIAfURclabHQJr4PuMnClH8rbYrq-xY'
