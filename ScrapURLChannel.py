@@ -4,6 +4,7 @@ import readGoogleSheets
 import random
 import subprocess
 import time
+import input_youtube_link_cmd
 #channels = ['UCuDm45jKrsTeEpx7BayVaiw','UCJFP-5V2-0BFeVmKifG0H_Q' , 'UC6jNDNkoOKQfB5djK2IBDoA']
 channels = readGoogleSheets.main()
 for channelid in channels:
@@ -49,13 +50,14 @@ for channelid in channels:
             url = video_url.attrib['href']
             print('Video URL:', url)
             #cmd = "python3 C:\\Users\\user\\Documents\\automatizacionDONPODCAST\\input_youtube_link_1min.py "+url+" Transcribir C:\\Users\\user\\Documents\\automatizacionDONPODCAST\\touploadMP4\\"
-            cmd = "python3 input_youtube_link_cmd.py"# "+url+" Transcribir touploadMP4"
+            #cmd = "python3 input_youtube_link_cmd.py"# "+url+" Transcribir touploadMP4"
             #cmd = cmd.replace("\\", "\\\\").replace("C:\\\\", "C\\:\\\\")
             # Ejecutar el comando ls y capturar la salida
             #resultado = subprocess.run(["ls"], capture_output=True, text=True)
             # Imprimir la salida
             #print("Salida del comando ls:")
-            subprocess.run(cmd, check=True)
+            #subprocess.run(cmd, check=True)
+            input_youtube_link_cmd.main(url, "Transcribir", "touploadMP4/")
             time.sleep(5)
             #print(resultado.stdout)
             exit()
