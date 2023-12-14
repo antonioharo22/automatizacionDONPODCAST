@@ -56,7 +56,7 @@ for channelid in channels:
             # Imprimir la salida
             print("Salida del comando ls:")
             #time.sleep(5)
-            subprocess.run(cmd, check=True)
+            #subprocess.run(cmd, check=True)
             print(resultado.stdout)
             exit()
 
