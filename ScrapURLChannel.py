@@ -49,15 +49,15 @@ for channelid in channels:
             url = video_url.attrib['href']
             print('Video URL:', url)
             #cmd = "python3 C:\\Users\\user\\Documents\\automatizacionDONPODCAST\\input_youtube_link_1min.py "+url+" Transcribir C:\\Users\\user\\Documents\\automatizacionDONPODCAST\\touploadMP4\\"
-            #cmd = "python3 input_youtube_link_cmd.py "+url+" Transcribir touploadMP4/"
+            cmd = "python3 input_youtube_link_cmd.py "+url+" Transcribir touploadMP4"
             #cmd = cmd.replace("\\", "\\\\").replace("C:\\\\", "C\\:\\\\")
             # Ejecutar el comando ls y capturar la salida
-            resultado = subprocess.run(["ls"], capture_output=True, text=True)
+            #resultado = subprocess.run(["ls"], capture_output=True, text=True)
             # Imprimir la salida
-            print("Salida del comando ls:")
-            #time.sleep(5)
-            #subprocess.run(cmd, check=True)
-            print(resultado.stdout)
+            #print("Salida del comando ls:")
+            subprocess.run(cmd, check=True)
+            time.sleep(5)
+            #print(resultado.stdout)
             exit()
 
         likes = entry.find('.//yt:likes', namespaces=namespace)
