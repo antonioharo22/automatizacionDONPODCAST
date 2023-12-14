@@ -49,10 +49,11 @@ for channelid in channels:
             url = video_url.attrib['href']
             print('Video URL:', url)
             #cmd = "python3 C:\\Users\\user\\Documents\\automatizacionDONPODCAST\\input_youtube_link_1min.py "+url+" Transcribir C:\\Users\\user\\Documents\\automatizacionDONPODCAST\\touploadMP4\\"
-            cmd = "python3 input_youtube_link_1min.py "+url+" Transcribir C:\\Users\\user\\Documents\\automatizacionDONPODCAST\\touploadMP4\\"
+            #cmd = "python3 input_youtube_link_1min.py "+url+" Transcribir C:\\Users\\user\\Documents\\automatizacionDONPODCAST\\touploadMP4\\"
             #cmd = cmd.replace("\\", "\\\\").replace("C:\\\\", "C\\:\\\\")
-            time.sleep(5)
-            subprocess.run(cmd, check=True)
+            #time.sleep(5)
+            exit()
+            #subprocess.run(cmd, check=True)
 
         likes = entry.find('.//yt:likes', namespaces=namespace)
         if likes is not None and 'count' in likes.attrib:
