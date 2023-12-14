@@ -25,4 +25,4 @@ jobs:
 
     - name: Ejecutar script Python
       run: |
-        python3 automatizacionDONPODCAST/readGoogleSheets.py
+        python3 readGoogleSheets.py
