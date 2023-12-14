@@ -126,16 +126,7 @@ def generar_clips_aleatorios(input_path, output_path_prefix, clip_duration=59):
 #     video_clip.reader.close()
    
 
-def main():
-    parser = argparse.ArgumentParser(description='Generador automático de videos subtitulados')
-    parser.add_argument('link', type=str, help='Enlace del video de YouTube')
-    parser.add_argument('task', type=str, choices=['Transcribir', 'Traducir'], help='Tipo de tarea: Transcribir o Traducir')
-    parser.add_argument('output_dir', type=str, help='Directorio para guardar el video generado')
-    args = parser.parse_args()
-
-    link = args.link
-    task = args.task
-    output_dir = args.output_dir
+def main(link, task, output_dir):
 
     # Asegúrate de que el directorio de salida exista
     os.makedirs(output_dir, exist_ok=True)
