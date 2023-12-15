@@ -92,7 +92,7 @@ def generate_subtitled_video(video, audio, transcript, output_dir):
     cmd = cmd.replace("subtitles=", "subtitles='").replace(":force_style=", "':force_style='FontName=Arial Bold,FontSize=30':original_size=hd720").replace("C:\\\\", "C\\:\\\\")
     #cmd = cmd.replace("subtitles=", "subtitles='").replace(":force_style=", "':force_style='FontName=Arial Bold,FontSize=30,OutlineColour=&H80000000,BorderStyle=3,Outline=1,Shadow=1':original_size=hd720").replace("C:\\\\", "C\\:\\\\")    
     print(cmd)
-    subprocess.run(cmd, check=True)
+    #subprocess.run(cmd, check=True)
 
 
 def generar_clips_aleatorios(input_path, output_path_prefix, clip_duration=59):
@@ -142,15 +142,15 @@ def main(link, task, output_dir):
         transcript_file.write(results[1])  # Assuming that the subtitles are in VTT format
 
     generate_subtitled_video(video, os.path.join(output_dir, "audio.mp3"), transcript_path, output_dir)
-    os.remove(os.path.join(output_dir, "audio.mp3"))
-    os.remove(transcript_path)
-    os.remove(video)
+    #os.remove(os.path.join(output_dir, "audio.mp3"))
+    #os.remove(transcript_path)
+    #os.remove(video)
     # Especifica la ruta del video de entrada y salida
     input_video_path = os.path.join(output_dir, video.replace(".mp4","_sub.mp4"))
     #output_video_path = "clip.mp4"
 
     # Llama a la función para obtener el primer minuto del video
-    generate_clip.trim_video(input_video_path, input_video_path.replace("sub","clip"))
+    #generate_clip.trim_video(input_video_path, input_video_path.replace("sub","clip"))
     #os.remove(input_video_path)
 
 if __name__ == "__main__":
